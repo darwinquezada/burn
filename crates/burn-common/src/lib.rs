@@ -16,10 +16,6 @@ pub use rayon;
 
 extern crate alloc;
 
-/// Network utilities.
-#[cfg(feature = "network")]
-pub mod network;
-
 /// Parallel utilities.
 pub mod parallel;
 

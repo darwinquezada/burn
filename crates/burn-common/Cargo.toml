@@ -18,7 +18,7 @@ workspace = true
 default = ["std", "cubecl-common/default"]
 std = ["cubecl-common/std"]
 doc = ["default"]
-network = ["dep:indicatif", "dep:reqwest", "dep:tokio"]
+# network = ["dep:indicatif", "dep:reqwest", "dep:tokio"]
 rayon = ["dep:rayon"]
 
 [dependencies]
