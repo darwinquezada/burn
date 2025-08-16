@@ -1,5 +1,5 @@
 /// Network download utilities.
-/*pub mod downloader {
+pub mod downloader {
     use indicatif::{ProgressBar, ProgressState, ProgressStyle};
     use reqwest::Client;
     #[cfg(feature = "std")]
@@ -54,4 +54,4 @@
 
         bytes
     }
-}*/
+}
